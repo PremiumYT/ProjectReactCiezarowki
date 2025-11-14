@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+import NavBar from "./components/NavBar.js";
 
 function App() {
     const [data, setData] = useState({});
@@ -80,6 +81,8 @@ function App() {
 
 
     return (
+        <>
+        <NavBar />
         <div className="container mt-4">
             <h1>Dane firmy</h1>
 
@@ -120,6 +123,8 @@ function App() {
                 ))}
             </ul>
         </div>
+
+        </>
     );
 }
 
