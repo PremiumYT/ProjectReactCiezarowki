@@ -108,7 +108,7 @@ function App() {
             <ul className="list-group mt-4 ms-3">
                 {data.kandydaci?.map((c, index) => (
                     <li key={index} className='list-group-item'>
-                        {c.imie} {c.nazwisko} - {c.stanowisko}
+                        {c.imie} {c.nazwisko}
                     </li>
                 ))}
             </ul>
