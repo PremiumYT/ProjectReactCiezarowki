@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import NavBar from "./components/NavBar.js";
+import { initStorage } from "./API/storageService";
 
 function App() {
     const [data, setData] = useState({});
