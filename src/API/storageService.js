@@ -42,15 +42,6 @@ const initialCompanyData = {
 };
 
 
-const initialUsers = [
-    {
-        imie: "Admin",
-        nazwisko: "Admin",
-        email: "admin@firma.com",
-        haslo: "admin123",
-        rola: "admin"
-    }
-];
 
 export function initStorage() {
     if (!localStorage.getItem(COMPANY_KEY)) {
