@@ -1,14 +1,12 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
-function Footer(){
+function Footer() {
     return (
         <footer>
-            <Container fluid>
-                <Row className="bg-black text-white">
-                    Footer
-                </Row>
-            </Container>
+            <div className="fixed-bottom text-center bg-black text-white">
+                Footer
+            </div>
         </footer>
     )
 }

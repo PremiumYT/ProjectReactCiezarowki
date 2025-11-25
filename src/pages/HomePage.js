@@ -49,12 +49,13 @@ function Home() {
 
       <div className="text-center mt-5">
         <h3>Chcesz dołączyć do naszego zespołu?</h3>
-        <Link to="/formularz" className="btn btn-primary btn-lg mt-3">
+        <Link to="/formularz" className="btn btn-dark btn-lg mt-3">
           Dołącz do nas teraz!
         </Link>
       </div>
+    <br/>
+    <br/> 
     </div>
-    
   );
 }
 
