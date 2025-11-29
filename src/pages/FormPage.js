@@ -33,6 +33,21 @@ function FormPage() {
 
         <button type="submit" className="btn btn-primary">Wyślij zgłoszenie</button>
       </form>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }
