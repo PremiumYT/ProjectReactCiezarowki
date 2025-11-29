@@ -1,14 +1,11 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 
 function Footer() {
     return (
-        <footer>
-            <div className="text-center bg-dark text-white p-2">
-                Strona zrobiona przez Marcina Wirkowskiego
-            </div>
+        <footer className="mt-auto bg-dark text-white py-2 text-center">
+            Strona zrobiona przez Marcina Wirkowskiego
         </footer>
-    )
+    );
 }
 
 export default Footer;
